@@ -20,6 +20,6 @@ jobs:
           context: .
           file: ./Dockerfile.reactUi
           push: true
-          tags: test tag
+          tags: 'test tag'
           labels: labels
           
