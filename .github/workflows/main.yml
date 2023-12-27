@@ -23,6 +23,6 @@ jobs:
           context: .
           file: ./Dockerfile.reactUI
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/docker:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/dockertest:latest
           labels: labels
           
